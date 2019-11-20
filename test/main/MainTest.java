@@ -56,6 +56,14 @@ class MainTest {
         assertEquals(expected, main.numMin(x));
     }
 
+
+    @Test
+    void f2() {
+        double x = 0;
+        double y = main.f2(x);
+        assertEquals(Double.NEGATIVE_INFINITY, y);
+    }
+
     @Test
     void sum() {
         double[] x = {0.1, -0.41, 0.56, 2.1, -0.5, -2.8};

@@ -66,6 +66,10 @@ public class Main {
         return Math.sin(x);
     }
 
+    public double f2(double x) {
+        return Math.log(x);
+    }
+
     public int numMax(double[] x) {
         int res = 0;
         for (int i = 1; i < x.length; i++) {
